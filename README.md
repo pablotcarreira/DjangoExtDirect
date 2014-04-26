@@ -1,4 +1,3 @@
-
 ### Introduction.
 
 This code was originally created by Michael "Svedrin" Ziegler (https://bitbucket.org/Svedrin/djextdirect).
@@ -43,7 +42,7 @@ urlpatterns = patterns('',
 ```
 
 
-#### Decorate your functions in views.
+#### In you views, decorate your functions to expose them to the client.
 
 You can decorate functions:
 
