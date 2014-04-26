@@ -29,7 +29,7 @@ EXT = provider.Provider(name="Ext.app.REMOTING_API", autoadd=False)
 
 ```
 
-### Then add the line `url(r'^direct/', include(EXT.urls))` to the tuple of URLs,
+#### Then add the line `url(r'^direct/', include(EXT.urls))` to the tuple of URLs,
 like that:
 
 ```python
@@ -94,7 +94,7 @@ class MyCustomError(Exception):
 ```
 
 In the client you can use the error message to display messages to the user, in the example I log to the
-console, but you can open a window, or pop a toast with the error:
+console, but you can open a window, or pop up a toast with the error:
 
 ```javascript
 ClassToOrganizeCode.a_staticmethod({property1: 10, property2: 20},
