@@ -14,7 +14,7 @@ I also implemented some extra features:
 
 ### Instalation.
 
-Put the **djxextdict** folder in you pythonpath or in your project tree.
+Put the **djextdirect** folder in you PYTHONPATH or in your project tree.
 
 ### Usage.
 
